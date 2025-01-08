@@ -1,0 +1,83 @@
+body{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #163523;
+}
+.game-area{
+  width: 100%;
+  height: auto;
+  padding: 0.5rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: 0.5rem;
+}
+.player-input{
+  width: 90%;
+  height: auto;
+  font-size: 1rem;
+  color: #DCD072;
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+.input-area{
+  width: 100%;
+  display: none;
+  height: auto;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: 0.4rem;
+}
+.input-container{
+  width: 40%;
+  height: auto;
+  padding: 1rem 2rem 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2.5px #DCD072 solid;
+  border-radius: 1.75rem;
+}
+.random-letter-container{
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: solid #DCD072 2px;
+  border-radius: 4rem;
+  font-size: 3rem;
+  color: #DCD072;
+}
+@keyframes in{
+  from{
+    margin-top: 7rem;
+  }
+  to{
+    margin-top: 0;
+  }
+}
+.button-class{
+  width: auto;
+  height: auto;
+  font-size: 1.5rem;
+  padding: 0.75rem 2.25rem 0.75rem 2.25rem;
+  background-color: #DCD072;
+  color: #163523;
+  border: none;
+  border-radius: 2rem;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.button-class:hover{
+  background-color: #afa559;
+}
