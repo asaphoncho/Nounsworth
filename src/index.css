@@ -2,7 +2,9 @@ body{
   padding: 0;
   margin: 0;
   overflow: hidden;
-  background-color: #163523;
+  background-image: url('./assets/wordlybackground4.png');
+  background-size: cover;
+  background-position: center;
 }
 .game-area{
   width: 100%;
